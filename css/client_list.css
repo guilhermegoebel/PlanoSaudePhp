@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Scifly';
+    src: url('../font/SciFly-Sans.ttf') format('truetype');
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.custom-table {
+    font-size: 18px;
+    width: 70%;
+    border-color: rgb(160, 175, 187);
+    margin: auto;
+    margin-bottom: 4%;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 1%;
+}
+
+.custom-table th {
+    text-align: center;
+    background-color: rgb(223, 230, 237);
+}
+
+.clientes {
+    padding-bottom: 3%;
+    padding-top: 5%;
+    font-size: 400%;
+    font-family: 'Scifly';
+}
+
+.plano {
+    text-align: center;
+    width: 35%;
+}
+
+.nome {
+    width: 50%;
+}
+
+.btn-primary {
+    background-color: rgb(101, 88, 245) !important;
+}
+
+.custom-button{
+    position: relative;
+    left: 76%;
+    bottom: 1%;
+}

@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Scifly';
+    src: url('../font/SciFly-Sans.ttf') format('truetype');
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.cliente {
+    text-align: left;
+    padding-bottom: 4%;
+    font-size: 400%;
+    font-family: 'Scifly';
+    position: relative;
+    right: 2%;
+}
+
+.linha-cinza {
+    border-top: 3px solid #ccc;
+    margin-top: 5%;
+    padding-top: 5%;
+}
+
+.dados-cliente {
+    margin-top: 20px;
+    font-size: 130%;
+
+}
+
+.dependentes {
+    margin-top: 20px;
+
+}
+
+.dependente {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 130%;
+}
+
+.parentesco {
+
+    margin-right: 5%;
+    max-width: 25%;
+    width: 25%;
+}
+
+.nome {
+    padding-left: 1%;
+    border-width: 1px;
+    width: 50%;
+}
+
+.custom-div {
+    padding-top: 5%;
+}
+
+.button-dependent {
+    background-color: rgb(101, 88, 245);
+    margin-left: 1%;
+}
+
+.back-button {
+    margin-left: 30%;
+}
+
+.buttons-footer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    margin-right: 10%;
+    padding-left: 2.5%;
+}
